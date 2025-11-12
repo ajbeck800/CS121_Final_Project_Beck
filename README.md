@@ -27,7 +27,6 @@ classDiagram
     }
 
     class DecisionNode {
-        <<interface>>
         - String menuA
         - String menuB
         + DecisionNode(all)
